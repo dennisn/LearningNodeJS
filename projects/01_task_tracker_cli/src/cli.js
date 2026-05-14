@@ -63,8 +63,8 @@ switch (command) {
   default:
     console.log(`
 Usage:
-  node cli.js add "<name>" "<description>" "<dueDate>"
-  node cli.js list
-  node cli.js delete <id>
+  node src/cli.js add "<name>" "<description>" "<dueDate>"
+  node src/cli.js list
+  node src/cli.js delete <id>
     `);
 }

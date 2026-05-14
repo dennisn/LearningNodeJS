@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "description": "Starter CLI project for learning Node.js file I/O and argument handling.",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "scripts": {
     "start": "node src/cli.js",
+    "list": "node src/cli.js list",
+    "add": "node src/cli.js add",
+    "delete": "node src/cli.js delete",
     "test": "node --test"
   }
 }
