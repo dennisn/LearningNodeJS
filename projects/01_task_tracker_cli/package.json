@@ -5,7 +5,7 @@
   "description": "Starter CLI project for learning Node.js file I/O and argument handling.",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/cli.js",
     "test": "node --test"
   }
 }

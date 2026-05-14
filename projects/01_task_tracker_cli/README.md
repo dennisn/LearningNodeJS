@@ -4,7 +4,7 @@ Starter project for a command-line to-do list application.
 
 ## Scripts
 
-- `npm start`
+- `npm start [list/add/delete]`
 - `npm test`
 
 ## Suggested next steps
