@@ -42,8 +42,8 @@ switch (command) {
       console.log('No tasks found. Your schedule is clear!');
     } else {
       console.log('\n--- Your Tasks ---');
-      tasks.forEach(t => {
-        console.log(`[${t.id}] ${t.name} - ${t.description} (Due: ${t.dueDate})`);
+      tasks.forEach(task => {
+        console.log(task.toString());
       });
       console.log('------------------\n');
     }
